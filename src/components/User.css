@@ -32,3 +32,27 @@
 .idSpan{
   text-decoration: underline;
 }
+.bioDiv{
+  background-color: black;
+  border-radius: 10px;
+  padding: 3px;
+  color: white;
+  width: 100% !important;
+  overflow: auto;
+}
+.ageDiv{
+  background-color: black;
+  border-radius: 10px;
+  padding: 3px;
+  color: white;
+width: 100% !important;
+overflow: auto;
+}
+.nameDiv{
+  background-color: black;
+  border-radius: 10px;
+  padding: 3px;
+  color: white;
+width: 100% !important;
+overflow: auto;
+}

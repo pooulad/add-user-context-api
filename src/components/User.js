@@ -11,9 +11,9 @@ const User = ({user}) => {
     return(
         <div className="user">
             <div><span className="idSpan">ID</span> : {user.id}</div>
-            <div>Name : {user.name}</div>
-            <div>Age : {user.age}</div>
-            <div>Bio : {user.bio}</div>
+            Name : <div className="nameDiv">{user.name}</div>
+            Age : <div className="ageDiv">{user.age}</div>
+            Bio : <div className="bioDiv">{user.bio}</div>
             <button className="deleteBtn" onClick={deleteHandler}>Delete</button>
         </div>
     )
