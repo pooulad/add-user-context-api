@@ -6,21 +6,18 @@
 }
 body {
   font-family: "Mitr", sans-serif;
-  background-color: #9b5de5;
+  background-color: #240046;
 }
 .app {
   display: flex;
   flex-direction: column;
 }
-.addUser {
-  background-color: #fee440;
-}
-@media(min-width:768){
+@media(min-width:768px){
   .app {
     display: flex;
     flex-direction: row;
   }
   .addUser {
-    background-color: #fee440;
+    width: 40%;
   }
 }

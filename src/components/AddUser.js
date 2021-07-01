@@ -24,7 +24,7 @@ const AddUser = () => {
                 <input className="input" type="text" placeholder="name" onChange={e => setName(e.target.value)} value={name} required />
                 <input className="input" type="number" placeholder="age" onChange={e => setAge(e.target.value)} value={age} required />
                 <textarea className="input" type="text" placeholder="bio" onChange={e => setBio(e.target.value)} value={bio} >{bio}</textarea>
-                <button type="submit"  className="addBtn">Add User</button>
+                <button type="submit"  className="addBtn">Add</button>
             </form>
         </div>
     )
