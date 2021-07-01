@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.listUser{
+    color: white;
+    background-color: #9b5de5;
+    width: 95%;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.allUsers{
+    
+    display: flex;
+    flex-direction: column;
+}

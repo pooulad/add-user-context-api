@@ -21,10 +21,14 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <UserContext.Provider value={{ users,dispatchUserEvent  }}>
-        <AddUser />
-        <ListUser />
+    <div className="app">
+      <UserContext.Provider value={{ users, dispatchUserEvent }}>
+        <div className="addUser">
+          <AddUser />
+        </div>
+        <div className="listUser">
+          <ListUser />
+        </div>
       </UserContext.Provider>
     </div>
   )

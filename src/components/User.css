@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.user {
+  margin: 10px auto;
+  padding: 50px;
+  background-color: #ff9f1c;
+  width: 95%;
+  border-radius: 10px;
+  font-weight: 700;
+  color: black;
+}
+.deleteBtn{
+  background-color: #b7094c;
+  border: none;
+  outline: none;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 200ms ease-out;
+}
+.deleteBtn:hover{
+  background-color: #e7075d;
+  transform: scale(1.1);
+}
+.idSpan{
+  text-decoration: underline;
+}
