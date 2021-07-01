@@ -18,11 +18,11 @@ function App() {
       default:
         return;
     }
-  }
+  };
 
   return (
     <div className="App">
-      <UserContext.Provider value={{ users }}>
+      <UserContext.Provider value={{ users,dispatchUserEvent  }}>
         <AddUser />
         <ListUser />
       </UserContext.Provider>
